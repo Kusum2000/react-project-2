@@ -54,8 +54,7 @@ select{
     transition: all 0.65s;
 }
 select:hover,select:focus{
-    background-color:white;
-    color:rgb(32, 25, 92);
+    background-color:rgb(50, 47, 79);
 }
 
 input[type="submit"]{
