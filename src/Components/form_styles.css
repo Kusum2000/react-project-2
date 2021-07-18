@@ -1,0 +1,85 @@
+.form-div{
+    display: block;
+    margin:auto;
+    margin-top: 5%;
+    padding: 10px 10px;
+    padding-bottom: 30px;
+    position: relative;
+    height: fit-content;
+    min-width: 300px;
+    max-width: 450px;
+    background-color:rgb(50, 47, 79);
+    font: 1.2em monospace;
+    color: white;
+    text-align: center;
+}
+h2{
+    color:cyan;
+}
+.name-div ,.email-div,.select-div{
+    margin: 5%;
+    padding: 10px 0px;
+}
+input{
+    padding: 10px 10px;
+    background: rgba(255, 255, 255, 0.144);
+    border:none;
+    outline: none;
+    color:cyan;
+    font-size: 0.7em;
+    min-width: fit-content;
+    transition: all 0.65s;
+}
+::placeholder{
+    color:rgba(245, 245, 245, 0.658);
+    transition: all 0.65s;
+
+}
+input:hover,input:focus{
+    background-color:rgba(248, 248, 255, 0.815);
+    color:rgb(32, 25, 92);
+}
+
+input:hover::placeholder,input:focus::placeholder{
+    color:rgba(32, 25, 92, 0.623);
+}
+
+select{
+    padding: 10px 10px;
+    background: rgba(255, 255, 255, 0.144);
+    border:none;
+    outline: none;
+    color:cyan;
+    font-size: 0.65em;
+    transition: all 0.65s;
+}
+select:hover{
+    background-color:white;
+    color:rgb(32, 25, 92);
+}
+
+input[type="submit"]{
+    padding: 10px 20px;
+    border: 2px solid cyan;
+    font: 1em monospace;
+    font-weight: bold;
+}
+input[type="submit"]:hover,input[type="submit"]:focus{
+    background-color: cyan;
+    color:rgb(50, 47, 79);
+}
+
+.display-form{
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    padding-bottom: 30px;
+    position: relative;
+    height: fit-content;
+    min-width: 300px;
+    max-width: 450px;
+    background-color:rgb(50, 47, 79);
+    font: 1.2em monospace;
+    color: white;
+    text-align: center;
+}
