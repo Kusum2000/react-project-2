@@ -53,7 +53,7 @@ select{
     font-size: 0.65em;
     transition: all 0.65s;
 }
-select:hover{
+select:hover,select:focus{
     background-color:white;
     color:rgb(32, 25, 92);
 }
